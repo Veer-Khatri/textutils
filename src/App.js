@@ -9,7 +9,7 @@ function App() {
     <h1>I am Heading which is in different tag and not giving error because of JSX fragment</h1>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo"/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
