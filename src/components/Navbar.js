@@ -1,5 +1,6 @@
 import veer_logo from '../veer_logo.png';
 import PropTypes from 'prop-types'
+import'./Navbar_css.css'
 
 import React from 'react'
 // rfc emmet 
