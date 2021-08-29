@@ -4,14 +4,20 @@
   margin: 0;
   padding: 0;
 }
-.navbar{
+.navbar ,.logo_img_div  {
   display: flex;
   justify-content: left;
   align-items: center;
   text-align: center;
 }
+.logo_img_div p {
+  font-size: 24px;
+  margin-right: 10px;
+  font-weight: bolder;
+  font-family: 'Akaya Kanadaka';
+}
 #logo_img{
-  margin: 0 25px;
+  margin: 0 5px;
   height: 10vh;
   width: 5vw;
 }
@@ -20,7 +26,8 @@
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  width: 60vw;
+  width: 45vw;
+  margin: 0 5vw;
 }
 .links a {
   color: #000;

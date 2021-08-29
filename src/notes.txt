@@ -1,0 +1,4 @@
+JSX is a combination of js and html
+we only have to return one tag and if we want to return more than one tag we use JSX fragment which are these --> <> </>
+props means properties
+components file name must always starts with capital letter 
