@@ -13,9 +13,11 @@ export default function Textform(props) {
         
     }   
     function lowercaseFunc(){
-        
         let newtext = text.toLowerCase();
-        setText(newtext)
+      setText(newtext)
+    }
+    function clearText (){
+        setText("")
     }   
     function handleOnChange(eventobj){
         setText(eventobj.target.value)
@@ -33,6 +35,7 @@ export default function Textform(props) {
                 <button id='uppercase' onClick={uppercaseFunc} className="btn">Convert to Uppercase</button> 
                 <button id='lowercase' onClick={lowercaseFunc} className="btn">Convert to lowercase</button> 
                 <button id='copy' onClick={copyText} className="btn">Copy text</button> 
+                <button id='clear' onClick={clearText} className="btn">Clear text</button> 
             </div>
         </div>
         <div className="form">
