@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Merienda:wght@700&display=swap');
-#form{
+.form{
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -10,13 +10,13 @@
   width: 100vw;
   margin: 40px 0;
 }
-#textarea{
+#textarea , .summaryPara{
   width: 80vw;
   font-size:20px ;
   letter-spacing: 2px;
   margin-bottom: 30px ;
 }
-#form h1{
+.form h1{
   font-family: 'Akaya Kanadaka';
   margin: 20px;
   width: 80vw;
