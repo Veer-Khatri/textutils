@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 
@@ -9,6 +10,7 @@ function App() {
     <> 
     <Navbar title = 'Company name' about_link = "About Us"/>{/*title and about_link are both props */}
     <Textform heading='Enter the text to analyze'/>
+    <About></About>
     </>
   );
 }

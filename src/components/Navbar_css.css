@@ -17,9 +17,10 @@
   font-family: 'Akaya Kanadaka';
 }
 #logo_img{
-  margin: 0 5px;
+  margin: 1px 5px;
   height: 10vh;
   width: 5vw;
+  border-radius: 20px;
 }
 .links{
   display: flex;
@@ -46,10 +47,11 @@
 #search_input{
   width: 20vw;
   border: none;
+  background: none;
   outline: none;
   padding: 4px; 
   font-size: 20px;
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: monospace, cursive;
   font-weight: bolder;
 }
 #search_btn{
