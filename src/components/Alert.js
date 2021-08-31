@@ -17,11 +17,6 @@ function show_alert_func() {
     document.getElementById("alert").style.display = "block"
 }
 
-function hide_alert_function() {
-    setTimeout(() => { 
-        document.getElementById("alert").style.display = 'none' 
-    },2500)}
-
 
 
 export default Alert;

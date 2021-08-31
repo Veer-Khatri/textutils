@@ -19,6 +19,9 @@ function App() {
       alert_type: type
 
     })
+    setTimeout(() => {
+      setAlert(false)
+    }, 2500);
   }
   return (
     // the below code is JSX which is a combination of js and html
