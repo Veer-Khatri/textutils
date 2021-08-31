@@ -35,7 +35,7 @@ function App() {
             <Route exact path="/about">
               <About />
             </Route>
-            <Route exact path="/home">
+            <Route exact path="/">
               <Textform showAlert={showAlert} heading='Enter the text to analyze' />
             </Route>
           </Switch>

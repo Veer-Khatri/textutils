@@ -54,11 +54,11 @@ export default function Navbar(props) {
         <>
         <nav className="navbar">
             <div className="logo_img_div">
-                <Link to="/home" id="logo_anchor_tag"><img src={veer_logo} alt="logo" id='logo_img' /></Link>
+                <Link to="/" id="logo_anchor_tag"><img src={veer_logo} alt="logo" id='logo_img' /></Link>
                 <p>{props.title}</p>
             </div>
             <div className="links">
-                <li><Link to="/home" className="navlinks">Home</Link></li>
+                <li><Link to="/" className="navlinks">Home</Link></li>
                 <li><Link to="/about" className="navlinks">About Us</Link></li>
                 <li><Link to="/contact" className="navlinks">Contact Us</Link></li>
                 <li><Link to="/seller" className="navlinks">Become a Seller</Link></li>
