@@ -5,7 +5,7 @@ function Alert(props) {
         //props.alert && means if props.alert is false then code after it will not evalute 
         props.alert && <div id='alert' >
             {show_alert_func}
-            {hide_alert_function}
+            
             <p ><strong>{props.alert.alert_type}</strong>:{props.alert.msg} </p>
 
 
