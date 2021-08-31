@@ -29,7 +29,7 @@
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  width: 45vw;
+  width: 42vw;
   margin: 0 3vw;
 }
 .links a {
@@ -47,7 +47,7 @@
   
 }
 #search_input{
-  width: 20vw;
+  width: 17vw;
   border: none;
   background: none;
   outline: none;
@@ -72,3 +72,16 @@
   background: rgb(19, 186, 241);
   border: none;
 } 
+
+
+nav #drak_light_switch{
+  background-color: #FF5200;
+  color: white;
+  padding: 4px;
+  margin: 0 20px;
+  font-size: 16px;
+  font-family: 'Merienda', cursive;
+  font-weight: bolder;
+  border: 2px groove #e44901;
+  border-radius: 6px;
+}

@@ -20,7 +20,7 @@ function show_alert_func() {
 function hide_alert_function() {
     setTimeout(() => { 
         document.getElementById("alert").style.display = 'none' 
-    },3500)}
+    },2500)}
 
 
 
