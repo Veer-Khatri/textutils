@@ -3,30 +3,55 @@ import React, { useState } from 'react'
 
 export default function Textform(props) {
     function uppercaseFunc() {
-        props.showAlert("Uppercased the text", "Success")
+        if (text !== "") {
+            props.showAlert("Uppercased the text", "Success")
+        }
+        else {
+            props.showAlert("textarea is empty", "Warning")     
+        }
         let newtext = text.toUpperCase();
         setText(newtext)
     }
     function copyText() {
-        props.showAlert("copied the text", "Success")
+        if (text !== "") {
+            props.showAlert("copied the text", "Success")
+        }
+        else {
+            props.showAlert("textarea is empty", "Warning")     
+        }
         let textarea_value = document.getElementById("textarea").value
         navigator.clipboard.writeText(textarea_value)
 
     }
     function lowercaseFunc() {
-        props.showAlert("lowercased the text", "Success")
+        if (text !== "") {
+            props.showAlert("lowercased the text", "Success")
+        }
+        else {
+            props.showAlert("textarea is empty", "Warning")
+        }
         let newtext = text.toLowerCase();
         setText(newtext)
     }
     function clearText() {
-        props.showAlert("cleared the text", "Success")
+        if (text !== "") {
+            props.showAlert("cleared the text", "Success")
+        }
+        else {
+            props.showAlert("textarea is empty", "Warning")
+        }
         setText("")
     }
     function handleOnChange(eventobj) {
         setText(eventobj.target.value)
     }
     function RemoveExrtaSpaces(eventobj) {
-        props.showAlert("removed the text", "Success")
+        if (text !== "") {
+            props.showAlert("removed the text", "Success")
+        }
+        else {
+            props.showAlert("textarea is empty", "Warning")
+        }
         let arr = text.split(/[ ]+/);
         setText(arr.join(" "));
 
@@ -70,7 +95,7 @@ export default function Textform(props) {
             <div action="" className="form">
                 <h1>{props.heading}</h1>
                 <label htmlFor="textarea"></label>
-                <textarea name="textarea" id="textarea" onChange={handleOnChange} value={text} cols="25" rows="12"></textarea>
+                <textarea name="textarea" id="textarea" onChange={handleOnChange} value={text} cols="25" rows="10"></textarea>
                 <div className="btn_container">
                     <button id='uppercase' onClick={uppercaseFunc} className="btn">Convert to Uppercase</button>
                     <button id='lowercase' onClick={lowercaseFunc} className="btn">Convert to lowercase</button>

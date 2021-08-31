@@ -15,17 +15,17 @@ html{
   text-align: left;
   align-items: center;
   width: 100vw;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 #textarea , .summaryPara{
   width: 80vw;
   font-size:20px ;
   letter-spacing: 2px;
-  margin-bottom: 30px ;
+  margin-bottom: 20px ;
 }
 .form h1{
   font-family: 'Akaya Kanadaka';
-  margin: 20px;
+  margin: 15px;
   width: 80vw;
   text-align: left; 
 }
@@ -70,7 +70,6 @@ html{
   
 }
 .about_para{
-
   margin: 10px;
   width: 80vw;
   font-family: monospace;
@@ -92,10 +91,15 @@ html{
 
 #alert{
   background: lightgreen;
+  display: block;
   width: 100vw;
   padding: 20px;
   font-size: 18px;
   font-family: monospace;
   font-weight: 500;
+}
+#alert_parent{
+  height: 6vh;
+  /* background-color: red; */
 }
 

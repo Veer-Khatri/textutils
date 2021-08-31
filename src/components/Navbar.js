@@ -58,7 +58,7 @@ export default function Navbar(props) {
                 <p>{props.title}</p>
             </div>
             <div className="links">
-                <li><Link to="/" className="navlinks">Home</Link></li>
+                <li><Link to="/" className="navlinks">Home</Link></li> 
                 <li><Link to="/about" className="navlinks">About Us</Link></li>
                 <li><Link to="/contact" className="navlinks">Contact Us</Link></li>
                 <li><Link to="/seller" className="navlinks">Become a Seller</Link></li>

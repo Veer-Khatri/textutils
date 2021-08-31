@@ -13,12 +13,20 @@ import {
 function App() {
   const [DarkModeState, setDarkModeState] = useState(false)// NEVER USED tells wherther the dark mode is enable or not
   const [alert, setAlert] = useState(null);
-  const showAlert = (message, type) => {
+  const showAlert = (message, type , element) => {
     setAlert({
       msg: message,
-      alert_type: type
+      alert_type: type,
+      element :element
 
     })
+    if (alert.alert_type === "warning") {
+      
+    }
+    else{
+
+    }
+    
     setTimeout(() => {
       setAlert(false)
     }, 2500);
