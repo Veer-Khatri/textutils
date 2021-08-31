@@ -10,6 +10,7 @@ function Alert(props) {
                     {show_alert_func}
                     <p ><strong>{props.alert.alert_type}</strong>:{props.alert.msg} </p>
                     </div>}
+                    {}
             </div>
 
         </>
