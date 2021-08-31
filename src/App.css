@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Merienda:wght@700&display=swap');
+html{
+  overflow-x: hidden;
+}
 /* textForm.js css */
 *{
   font-family: monospace ;
@@ -82,4 +85,17 @@
   font-family: 'Merienda',cursive;
   font-size: 22px;
 }
-  
+
+
+/* ----------------------------------------------------------------------------------- */
+/*  alert.js css  */
+
+#alert{
+  background: lightgreen;
+  width: 100vw;
+  padding: 20px;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 500;
+}
+
