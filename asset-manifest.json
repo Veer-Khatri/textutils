@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/textutils/static/css/main.0400ad0d.chunk.css",
+    "main.js": "/textutils/static/js/main.321eb0f6.chunk.js",
+    "main.js.map": "/textutils/static/js/main.321eb0f6.chunk.js.map",
+    "runtime-main.js": "/textutils/static/js/runtime-main.eefd7bd6.js",
+    "runtime-main.js.map": "/textutils/static/js/runtime-main.eefd7bd6.js.map",
+    "static/js/2.1c758fe6.chunk.js": "/textutils/static/js/2.1c758fe6.chunk.js",
+    "static/js/2.1c758fe6.chunk.js.map": "/textutils/static/js/2.1c758fe6.chunk.js.map",
+    "static/js/3.e5994614.chunk.js": "/textutils/static/js/3.e5994614.chunk.js",
+    "static/js/3.e5994614.chunk.js.map": "/textutils/static/js/3.e5994614.chunk.js.map",
+    "index.html": "/textutils/index.html",
+    "static/css/main.0400ad0d.chunk.css.map": "/textutils/static/css/main.0400ad0d.chunk.css.map",
+    "static/js/2.1c758fe6.chunk.js.LICENSE.txt": "/textutils/static/js/2.1c758fe6.chunk.js.LICENSE.txt",
+    "static/media/veer_logo.ffcd223e.png": "/textutils/static/media/veer_logo.ffcd223e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eefd7bd6.js",
+    "static/js/2.1c758fe6.chunk.js",
+    "static/css/main.0400ad0d.chunk.css",
+    "static/js/main.321eb0f6.chunk.js"
+  ]
+}
