@@ -1,4 +1,5 @@
 import veer_logo from '../veer_logo.png';
+
 import PropTypes from 'prop-types'
 import'./Navbar_css.css'
 import React from 'react'
@@ -15,7 +16,7 @@ function darkModeBtn(props) {
 
     if (html.style.background === "white") {
         // props.showAlert("Light mode enabled", "Success") not working
-        for (const element of navLinks) {
+        for (const element of navLinks) { 
             element.style.color = 'white'
 
         }
